@@ -1,0 +1,23 @@
+{
+    "name": "xsrf_protection",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "benedikt.ringlein",
+            "email": "benedikt.ringlein@aoe.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0",
+        "typo3/cms-core": "*",
+        "typo3/cms-extbase": "*"
+    },
+    "require-dev": {
+        "typo3/cms": "6.2.*",
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "classmap": ["Classes/", "Tests/"]
+    }
+}
