@@ -12,7 +12,7 @@ namespace Aoe\XsrfProtection;
 use Aoe\XsrfProtection\System\Typo3\FrontendFormProtection;
 use TYPO3\CMS\Core\FormProtection\AbstractFormProtection;
 
-class XSRFProtectionService
+class FrontendFormProtectionService
 {
 
 	/**
@@ -21,7 +21,7 @@ class XSRFProtectionService
 	protected $frontendFormProtection;
 
 	/**
-	 * XSRFProtectionService constructor.
+	 * FrontendFormProtectionService constructor.
 	 * @param FrontendFormProtection $frontendFormProtection Object that provides token generation and validation
 	 */
 	public function __construct(FrontendFormProtection $frontendFormProtection)
