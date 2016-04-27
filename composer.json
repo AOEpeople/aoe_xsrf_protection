@@ -1,5 +1,5 @@
 {
-    "name": "xsrf_protection",
+    "name": "aoe/xsrf_protection",
     "type": "typo3-cms-extension",
     "authors": [
         {
